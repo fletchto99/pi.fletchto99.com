@@ -150,10 +150,12 @@
                     }, delay);
                 }
             }
-            animate();
+            window.onload = function() {
+                animate();
+            }
         </script>
 
-                <style type="text/css">
+        <style type="text/css">
             body, td, th {
                 font-family: consolas, serif;
                 font-size: 18px;
